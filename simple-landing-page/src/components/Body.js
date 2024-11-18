@@ -4,7 +4,7 @@ const Body = () => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
-        <img src={"../../photos/Yura.jpg"} alt="Yurii Kozenko" style={styles.photo} />
+        <img src={"/Yura.jpg"} alt="Yurii Kozenko" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Yurii Kozenko</h2>
           <p style={styles.position}>devOps</p>
@@ -12,7 +12,7 @@ const Body = () => {
       </div>
 
      <div style={styles.card}>
-        <img src={"../../photos/DSC_7018.jpg"} alt="Kottes Edvin" style={styles.photo} />
+        <img src={"/DSC_7018.jpg"} alt="Kottes Edvin" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Edvin Kottes</h2>
           <p style={styles.position}>QA Engineer</p>
@@ -28,7 +28,7 @@ const Body = () => {
       </div>
 
       <div style={styles.card}>
-        <img src={"../../photos/bodyamber.jpg"} alt="Bohdan Kostiuk" style={styles.photo} />
+        <img src={"/bodyamber.jpg"} alt="Bohdan Kostiuk" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Bohdan Kostiuk</h2>
           <p style={styles.position}>Scrum Master</p>
