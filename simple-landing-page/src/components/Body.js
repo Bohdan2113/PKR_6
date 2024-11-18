@@ -7,7 +7,15 @@ const Body = () => {
         <img src={"../../photos/Yura.jpg"} alt="Yurii Kozenko" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Yurii Kozenko</h2>
-          <p style={styles.position}>DevOps</p>
+          <p style={styles.position}>devOps</p>
+        </div>
+      </div>
+
+     <div style={styles.card}>
+        <img src={"../../photos/DSC_7018.jpg"} alt="Kottes Edvin" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Edvin Kottes</h2>
+          <p style={styles.position}>QA Engineer</p>
         </div>
       </div>
 
@@ -18,6 +26,16 @@ const Body = () => {
           <p style={styles.position}>BackEnd</p>
         </div>
       </div>
+
+      <div style={styles.card}>
+        <img src={"../../photos/bodyamber.jpg"} alt="Bohdan Kostiuk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Bohdan Kostiuk</h2>
+          <p style={styles.position}>Scrum Master</p>
+        </div>
+      </div>
+
+  
     </main>
   );
 };
